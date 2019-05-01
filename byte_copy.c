@@ -102,6 +102,8 @@ int copy_bytes(int descriptor, int file_size, int byte_index) {
 	
 	bytes_copied = write(descriptor, buffer, bytes_to_write);
 	
+	free(buffer);
+	
 	return bytes_copied;
 }
 
