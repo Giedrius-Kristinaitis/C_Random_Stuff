@@ -121,7 +121,7 @@ int main(int arg_count, char ** args) {
 		exit(255);
 	}
 	
-    n = atoi(args[2]);
+	n = atoi(args[2]);
 	
 	descriptor = open_file(args[1]);
 	file_size = get_file_size(descriptor);
