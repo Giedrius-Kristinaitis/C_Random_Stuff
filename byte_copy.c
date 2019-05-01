@@ -127,7 +127,7 @@ int main(int arg_count, char ** args) {
 	if (n >= file_size) {
 		printf("Byte index too big");
 		exit(255);
-	} else if(n == 0) {
+	} else if (n == 0) {
 		printf("Byte index was specified as 0, no work needs to be done");
 		exit(0);
 	}
