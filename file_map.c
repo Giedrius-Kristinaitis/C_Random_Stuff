@@ -1,3 +1,5 @@
+/* This program maps a given file to virtual memory and prints it's n-th byte from the mapped region */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/mman.h>
