@@ -1,3 +1,5 @@
+/* This program copies all bytes from a file starting from n-th index to the beginning of the file */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/mman.h>
