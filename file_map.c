@@ -1,5 +1,9 @@
 /* This program maps a given file to virtual memory and prints it's n-th byte from the mapped region */
 
+/* compiled with gcc compiler with options -Wall -Werror -pedantic */
+
+/* author: Giedrius Kristinaitis */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/mman.h>
